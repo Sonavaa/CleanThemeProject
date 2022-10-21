@@ -184,45 +184,53 @@
     float: left;
     padding: 20px;
 }
+
 /* .Fourth{
     margin-bottom: 0%;
 } */
-.Fourth .child-1{
+.Fourth .child-1 {
     width: calc(100%/3);
-float: left;
- 
+    float: left;
+
 }
+
 .Fourth .child-2 {
     width: calc(100%/3);
     float: left;
 }
+
 .Fourth .child-3 {
     width: calc(100%/3);
     float: left;
 }
+
 .Fifth .child-4 {
     width: calc(100%/3);
     float: left;
 }
+
 .Fifth .child-5 {
     width: calc(100%/3);
     float: left;
 }
+
 .Fifth .child-6 {
     width: calc(100%/3);
     float: left;
 }
-.Sixth{
+
+.Sixth {
     text-align: center;
-    background-color: #f4623a;
 }
-.Sixth h2{
+
+.Sixth h2 {
     padding-top: 100px;
     font-size: 40px;
     color: black;
 }
-.Sixth button{
-padding: 1.25rem 2.25rem;
+
+.Sixth button {
+    padding: 1.25rem 2.25rem;
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -232,7 +240,70 @@ padding: 1.25rem 2.25rem;
     border-color: white;
     margin-bottom: 100px;
 }
-.Sixth button a{
-text-decoration: none;
+
+.Sixth button a {
+    text-decoration: none;
     color: black;
+}
+
+.Seventh {
+    text-align: center;
+}
+
+.Seventh h2 {
+    padding-top: 100px;
+    font-size: 40px;
+    color: black;
+}
+
+.Seventh hr {
+    width: 4%;
+    height: 4px;
+    margin-left: 48%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.Seventh p {
+    margin-bottom: 3rem;
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.Seventh input {
+    width: 30%;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.Seventh textarea {
+    width: 30%;
+}
+
+.Seventh button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 10rem;
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.Last {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.Last p {
+    color: #6c757d;
+    text-align: center;
+    padding-top: 50px;
 }
